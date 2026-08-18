@@ -1,0 +1,15 @@
+{
+  "name": "university-canteen-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-Stack University Canteen Management System with Neubrutalism UI",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build:client": "npm --prefix client run build",
+    "prisma:generate": "npm --prefix server run prisma:generate",
+    "prisma:push": "npm --prefix server run prisma:push",
+    "prisma:seed": "npm --prefix server run prisma:seed"
+  }
+}

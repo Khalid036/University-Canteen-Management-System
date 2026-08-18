@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Prisma (Prisma 7 generates the client into ./generated)
+generated/
+prisma/migrations/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Uploads (user-uploaded images)
+uploads/
+
+# Build output & logs
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
